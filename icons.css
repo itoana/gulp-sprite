@@ -1,0 +1,58 @@
+.icon-account {
+  width: 24px;
+  height: 24px;
+  background-position: 0px 0px;
+}
+
+.icon-active-account {
+  width: 24px;
+  height: 24px;
+  background-position: -24px 0px;
+}
+
+.icon-active-deposit {
+  width: 24px;
+  height: 24px;
+  background-position: 0px -24px;
+}
+
+.icon-active-detail {
+  width: 24px;
+  height: 24px;
+  background-position: -24px -24px;
+}
+
+.icon-active-help {
+  width: 24px;
+  height: 24px;
+  background-position: -48px 0px;
+}
+
+.icon-deposit {
+  width: 24px;
+  height: 24px;
+  background-position: -48px -24px;
+}
+
+.icon-detail {
+  width: 24px;
+  height: 24px;
+  background-position: 0px -48px;
+}
+
+.icon-help {
+  width: 24px;
+  height: 24px;
+  background-position: -24px -48px;
+}
+
+.icon_sprite {
+  background-size: 72px 72px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .icon_sprite {
+    background-size: 72px 72px;
+  }
+}
